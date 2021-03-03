@@ -1,0 +1,8 @@
+module Calculator
+{
+	interface CalculatorInterface
+	{
+		string run(in string op, in double a, in double b, in double c, in double d);
+		oneway void shutdown();
+	};
+};
